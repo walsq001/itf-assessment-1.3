@@ -27,7 +27,7 @@ header {
     color: var(--base-font-color);
     text-align: center;
     font-size: 150%;
-    padding: 1em 0;
+    padding: 10px;
 }
 
 footer {
@@ -61,4 +61,28 @@ nav ul {
 nav ul li {
   text-align: center;
   flex: 1;
+}
+
+#subsection {
+  border: 3px solid var(--c-cyan);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+article {
+  flex: 2;
+  min-width: 0;
+}
+
+aside {
+  flex: 1;
+  min-width: 200px;
+  color: var(--c-green);
 }
